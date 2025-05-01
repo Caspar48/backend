@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # 後端 API 服務
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vehicle-booking-api
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=development
+      - PORT=5000
+      - MONGO_URI=mongodb://mongo:27017/vehicle-booking
+      - JWT_SECRET=your_jwt_secret_key_here
+      - JWT_EXPIRES_IN=30d
+      - CORS_ORIGIN=http://localhost:3000
+    volumes:
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+  
+  # MongoDB 數據庫
+  mongo:
+    image: mongo:6
+    container_name: vehicle-booking-db
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+  
+  # MongoDB Web 管理界面
+  mongo-express:
+    image: mongo-express
+    container_name: vehicle-booking-mongo-express
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=password
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+# 持久卷
+volumes:
+  mongo-data:
+    driver: local
+
+# 網絡
+networks:
+  app-network:
+    driver: bridge 

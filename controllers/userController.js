@@ -52,3 +52,23 @@ exports.updateUserProfile = async (req, res) => {
     res.status(500).send('服務器錯誤');
   }
 };
+
+exports.getProfile = (req, res) => {
+  // Logic for fetching current user profile
+};
+
+exports.updateProfile = (req, res) => {
+  // Logic for updating current user profile
+};
+
+exports.getUserById = (req, res) => {
+  // Logic for fetching a user by ID
+};
+
+exports.updateUserById = (req, res) => {
+  // Logic for updating a user by ID
+};
+
+exports.deleteUserById = (req, res) => {
+  // Logic for deleting a user by ID
+};

@@ -7,10 +7,17 @@ const Booking = require('../models/Booking');
 
 const createBooking = async (req, res) => {
     try {
-        const booking = new Booking({
-            ...req.body,
-            userId: req.user.id
-        });
+        // 檢查是否有登入用戶，如果有則添加用戶 ID
+        const bookingData = {
+            ...req.body
+        };
+        
+        // 如果用戶已登入，添加用戶 ID
+        if (req.user) {
+            bookingData.userId = req.user.id;
+        }
+
+        const booking = new Booking(bookingData);
         await booking.save();
         res.status(201).json(booking);
     } catch (error) {
@@ -20,6 +27,10 @@ const createBooking = async (req, res) => {
 
 const getUserBookings = async (req, res) => {
     try {
+        // 只有登入用戶才能查看其預訂記錄
+        if (!req.user) {
+            return res.status(401).json({ message: '請先登入以查看預訂記錄' });
+        }
         const bookings = await Booking.find({ userId: req.user.id });
         res.json(bookings);
     } catch (error) {

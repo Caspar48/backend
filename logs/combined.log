@@ -1,0 +1,136 @@
+2025-04-26 23:53:03 info: 正在連接 MongoDB...
+2025-04-26 23:53:03 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-26 23:53:03 info: 伺服器運行在端口 5000
+2025-04-26 23:53:03 info: 環境: development
+2025-04-26 23:53:03 info: API 文檔: http://localhost:5000/api-docs
+2025-04-26 23:53:03 info: MongoDB 已連接: 127.0.0.1
+2025-04-26 23:59:59 info: 正在連接 MongoDB...
+2025-04-26 23:59:59 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-26 23:59:59 info: 伺服器運行在端口 5000
+2025-04-26 23:59:59 info: 環境: development
+2025-04-26 23:59:59 info: API 文檔: http://localhost:5000/api-docs
+2025-04-26 23:59:59 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 12:25:12 info: 正在連接 MongoDB...
+2025-04-27 12:25:12 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 12:25:12 info: 伺服器運行在端口 5000
+2025-04-27 12:25:12 info: 環境: development
+2025-04-27 12:25:12 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 12:25:12 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 12:28:05 info: 請求完成: GET /api/health 200 5ms
+2025-04-27 12:28:39 info: 請求完成: GET /api/health 200 2ms
+2025-04-27 12:29:53 info: 請求完成: GET /api/health 200 0ms
+2025-04-27 12:41:27 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 12:41:29 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 12:47:10 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 12:47:13 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 12:53:12 info: 請求完成: GET /api/health 200 0ms
+2025-04-27 21:37:32 info: 請求完成: GET /api/health 200 2ms
+2025-04-27 22:11:21 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 22:32:43 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 22:34:23 info: 請求完成: GET /api/health 200 0ms
+2025-04-27 22:34:48 error: 服務器錯誤: {"method":"GET","url":"/api/users/test-connection","status":500,"responseTime":"34ms","userAgent":"curl/8.12.1","ip":"::1"}
+2025-04-27 22:41:52 info: 請求完成: GET /api/health 200 1ms
+2025-04-27 22:42:27 error: 服務器錯誤: {"method":"POST","url":"/api/auth/login","status":500,"responseTime":"71ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36","ip":"::1"}
+2025-04-27 22:42:29 error: 服務器錯誤: {"method":"POST","url":"/api/auth/login","status":500,"responseTime":"6ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36","ip":"::1"}
+2025-04-27 22:53:35 info: 正在連接 MongoDB...
+2025-04-27 22:53:35 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 22:53:35 info: 伺服器運行在端口 5000
+2025-04-27 22:53:35 info: 環境: development
+2025-04-27 22:53:35 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 22:53:36 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 22:55:23 info: 正在連接 MongoDB...
+2025-04-27 22:55:23 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 22:55:23 info: 伺服器運行在端口 5000
+2025-04-27 22:55:23 info: 環境: development
+2025-04-27 22:55:23 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 22:55:23 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 22:57:22 info: 正在連接 MongoDB...
+2025-04-27 22:57:22 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 22:57:22 info: 伺服器運行在端口 5000
+2025-04-27 22:57:22 info: 環境: development
+2025-04-27 22:57:22 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 22:57:23 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 22:57:30 info: 請求完成: GET /api/health 200 4ms
+2025-04-27 22:58:49 info: 正在連接 MongoDB...
+2025-04-27 22:58:49 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 22:58:49 info: 伺服器運行在端口 5000
+2025-04-27 22:58:49 info: 環境: development
+2025-04-27 22:58:49 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 22:58:49 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 23:05:10 info: 正在連接 MongoDB...
+2025-04-27 23:05:10 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 23:05:10 info: 伺服器運行在端口 5000
+2025-04-27 23:05:10 info: 環境: development
+2025-04-27 23:05:10 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 23:05:10 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 23:05:51 info: 正在連接 MongoDB...
+2025-04-27 23:05:51 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 23:05:51 info: 伺服器運行在端口 5000
+2025-04-27 23:05:51 info: 環境: development
+2025-04-27 23:05:51 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 23:05:51 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 23:06:44 info: 正在連接 MongoDB...
+2025-04-27 23:06:45 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 23:06:45 info: 伺服器運行在端口 5000
+2025-04-27 23:06:45 info: 環境: development
+2025-04-27 23:06:45 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 23:06:45 info: MongoDB 已連接: 127.0.0.1
+2025-04-27 23:09:49 info: 正在連接 MongoDB...
+2025-04-27 23:09:49 info: API 文檔可訪問於: http://localhost:5000/api-docs
+2025-04-27 23:09:49 info: 伺服器運行在端口 5000
+2025-04-27 23:09:49 info: 環境: development
+2025-04-27 23:09:49 info: API 文檔: http://localhost:5000/api-docs
+2025-04-27 23:09:49 info: MongoDB 已連接: 127.0.0.1
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-27 23:53:10"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-27 23:53:10"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-27 23:53:10"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-27 23:53:10"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-27 23:53:10"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-27 23:53:11"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-27 23:53:45"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-27 23:53:45"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-27 23:53:45"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-27 23:53:45"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-27 23:53:45"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-27 23:53:45"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-27 23:56:59"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-27 23:56:59"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-27 23:56:59"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-27 23:56:59"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-27 23:57:00"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-27 23:57:00"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-28 00:22:13"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-28 00:22:13"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-28 00:22:13"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-28 00:22:13"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-28 00:22:13"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-28 00:22:13"}
+{"level":"info","message":"新用戶註冊: 680e5cc5819ec9d4ef585598","timestamp":"2025-04-28 00:35:17"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-28 21:33:07"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-28 21:33:07"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-28 21:33:07"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-28 21:33:07"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-28 21:33:07"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-28 21:33:07"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-29 21:40:41"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-29 21:40:41"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-29 21:40:42"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-29 21:40:42"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-29 21:40:42"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-29 21:40:42"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-04-30 08:28:54"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-04-30 08:28:54"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-04-30 08:28:54"}
+{"level":"info","message":"環境: development","timestamp":"2025-04-30 08:28:54"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-04-30 08:28:54"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-04-30 08:28:54"}
+{"level":"warn","message":"MongoDB 連接已斷開","timestamp":"2025-04-30 08:51:44"}
+{"level":"warn","message":"MongoDB 連接已斷開","timestamp":"2025-05-01 00:53:46"}
+{"level":"warn","message":"MongoDB 連接已斷開","timestamp":"2025-05-01 01:23:53"}
+{"level":"warn","message":"MongoDB 連接已斷開","timestamp":"2025-05-01 18:08:41"}
+{"level":"info","message":"正在連接 MongoDB...","timestamp":"2025-05-01 19:41:48"}
+{"level":"info","message":"API 文檔可訪問於: http://localhost:5000/api-docs","timestamp":"2025-05-01 19:41:48"}
+{"level":"info","message":"伺服器運行在端口 5000","timestamp":"2025-05-01 19:41:48"}
+{"level":"info","message":"環境: development","timestamp":"2025-05-01 19:41:48"}
+{"level":"info","message":"API 文檔: http://localhost:5000/api-docs","timestamp":"2025-05-01 19:41:48"}
+{"level":"info","message":"MongoDB 已連接: 127.0.0.1","timestamp":"2025-05-01 19:41:48"}

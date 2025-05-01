@@ -8,7 +8,7 @@ const bookingSchema = new mongoose.Schema({
   luggage: { type: Number, required: true },
   startLocation: { type: String, required: true },
   endLocation: { type: String, required: true },
-  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: false, default: null }, // 修改為非必需
   driver: { type: mongoose.Schema.Types.ObjectId, ref: 'Driver', default: null },
   status: { type: String, enum: ['pending', 'confirmed', 'completed'], default: 'pending' },
   earnings: { type: Number, default: 0 },
